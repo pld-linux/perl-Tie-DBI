@@ -2,8 +2,8 @@
 Summary:	Tie-DBI perl module
 Summary(pl):	Modu³ perla Tie-DBI
 Name:		perl-Tie-DBI
-Version:	0.85
-Release:	3
+Version:	0.91
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
@@ -37,7 +37,7 @@ rm -rf $RPM_BUILD_ROOT
 (
   cd $RPM_BUILD_ROOT%{perl_sitearch}/auto/Tie/DBI
   sed -e "s#$RPM_BUILD_ROOT##" .packlist >.packlist.new
-  mv .packlist.new .packlist
+  mv -f .packlist.new .packlist
 )
 
 gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man3/* \
