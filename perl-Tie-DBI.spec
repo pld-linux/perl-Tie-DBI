@@ -5,13 +5,13 @@ Summary:	Tie::DBI perl module
 Summary(pl):	Modu³ perla Tie::DBI
 Name:		perl-Tie-DBI
 Version:	0.91
-Release:	6
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-DBI
+BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -20,7 +20,7 @@ Tie::DBI allows you to tie Perl associative arrays to SQL databases
 using the DBI interface.
 
 %description -l pl
-Tie::DBI pozwala na wi±zanie tablic asocjacyjnych perla z bazamu SQL
+Tie::DBI pozwala na wi±zanie tablic asocjacyjnych perla z bazami SQL
 wykorzystuj±c interfejs DBI.
 
 %prep
@@ -35,13 +35,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf Changes README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc Changes README
 %{perl_sitelib}/Tie/*.pm
 %{_mandir}/man3/*
