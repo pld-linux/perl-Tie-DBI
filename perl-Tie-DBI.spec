@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	DBI
-Summary:	Tie-DBI perl module
-Summary(pl):	Modu³ perla Tie-DBI
+Summary:	Tie::DBI perl module
+Summary(pl):	Modu³ perla Tie::DBI
 Name:		perl-Tie-DBI
 Version:	0.91
 Release:	6
@@ -16,11 +16,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tie-DBI allows you to tie Perl associative arrays to SQL databases
+Tie::DBI allows you to tie Perl associative arrays to SQL databases
 using the DBI interface.
 
 %description -l pl
-Tie-DBI pozwala na wi±zanie tablic asocjacyjnych perla z bazamu SQL
+Tie::DBI pozwala na wi±zanie tablic asocjacyjnych perla z bazamu SQL
 wykorzystuj±c interfejs DBI.
 
 %prep
