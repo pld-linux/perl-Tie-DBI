@@ -7,7 +7,7 @@
 %define	pdir	Tie
 %define	pnam	DBI
 Summary:	Tie::DBI perl module
-Summary(pl):	Modu³ perla Tie::DBI
+Summary(pl):	Modu³ Perla Tie::DBI
 Name:		perl-Tie-DBI
 Version:	0.93
 Release:	1
@@ -27,7 +27,7 @@ Tie::DBI allows you to tie Perl associative arrays to SQL databases
 using the DBI interface.
 
 %description -l pl
-Tie::DBI pozwala na wi±zanie tablic asocjacyjnych perla z bazami SQL
+Tie::DBI pozwala na wi±zanie tablic asocjacyjnych Perla z bazami SQL
 wykorzystuj±c interfejs DBI.
 
 %prep
