@@ -1,7 +1,7 @@
 #
 # Conditional build:
 %bcond_with	tests	# perform "make test"
-			# require mysql server access
+			# require MySQL server access
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
