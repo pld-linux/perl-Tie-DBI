@@ -9,13 +9,13 @@
 Summary:	Tie::DBI perl module
 Summary(pl):	Modu³ Perla Tie::DBI
 Name:		perl-Tie-DBI
-Version:	0.93
+Version:	0.94
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	7f049f9897ee24fb5adcacf25213adfe
+# Source0-md5:	3dd6cf95503e475ddb454e79d349026f
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-DBI
 BuildRequires:	rpm-perlprov >= 4.1-13
