@@ -4,8 +4,8 @@
 			# require MySQL server access
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tie
-%define	pnam	DBI
+%define		pdir	Tie
+%define		pnam	DBI
 Summary:	Tie::DBI perl module
 Summary(pl):	Modu³ Perla Tie::DBI
 Name:		perl-Tie-DBI
