@@ -29,7 +29,7 @@ wykorzystuj±c interfejs DBI.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
