@@ -7,7 +7,7 @@
 %define		pdir	Tie
 %define		pnam	DBI
 Summary:	Tie::DBI perl module
-Summary(pl.UTF-8):   Moduł Perla Tie::DBI
+Summary(pl.UTF-8):	Moduł Perla Tie::DBI
 Name:		perl-Tie-DBI
 Version:	1.02
 Release:	1
