@@ -2,10 +2,10 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test"
 			# require MySQL server access
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Tie
 %define		pnam	DBI
+%include	/usr/lib/rpm/macros.perl
 Summary:	Tie::DBI perl module
 Summary(pl.UTF-8):	Moduł Perla Tie::DBI
 Name:		perl-Tie-DBI
@@ -16,8 +16,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	8bef1b1e4db79d1dcc871e87fbc68536
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Tie-DBI/
 BuildRequires:	perl-DBI
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
