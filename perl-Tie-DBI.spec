@@ -5,7 +5,6 @@
 
 %define		pdir	Tie
 %define		pnam	DBI
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tie::DBI perl module
 Summary(pl.UTF-8):	Moduł Perla Tie::DBI
 Name:		perl-Tie-DBI
